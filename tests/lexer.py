@@ -1,5 +1,5 @@
-from Template.context import Context
-from Template.template import Lexer, Parser
+from PEng.context import Context
+from PEng.template import Lexer, Parser
 
 l = Lexer('{= var =} \n Lol let\'s have sex')
 li = l.tokenize()

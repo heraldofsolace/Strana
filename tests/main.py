@@ -1,6 +1,6 @@
-from Template.context import Context
-from Template.library import Library
-from Template.template import Template
+from PEng.context import Context
+from PEng.library import Library
+from PEng.template import Template
 
 source = """<html>
     <head><title> {= title =}</title></head>
