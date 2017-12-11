@@ -39,7 +39,7 @@ class Library:
         self.actions[getattr(fun, '_decorated_function', fun).__name__] = fun
         return fun
 
-    def loop_action(self, func=None, need_context=None, name=None, node=None):
+    def loop_action(self, func=None, need_context=False, name=None, node=None):
         def dec(func):
             params, varargs, varkw, defaults, kwonly, kwonly_defaults, _ = getfullargspec(func)
             function_name = (name or getattr(func, '_decorated_function', func).__name__)
@@ -80,7 +80,7 @@ class Library:
         else:
             raise ValueError('Unsupported arguments')
 
-    def pattern_action(self, func=None, need_context=None, name=None, pattern=None, need_body=False, node=None):
+    def pattern_action(self, func=None, need_context=False, name=None, pattern=None, need_body=False, node=None):
         if pattern is None:
             raise Exception  # TODO:No pattern provided to pattern tag
 
@@ -106,7 +106,7 @@ class Library:
         else:
             raise ValueError
 
-    def basic_action(self, func=None, need_context=None, name=None, node=None):
+    def basic_action(self, func=None, need_context=False, name=None, node=None):
         def dec(func):
             params, varargs, varkw, defaults, kwonly, kwonly_defaults, _ = getfullargspec(func)
             function_name = (name or getattr(func, '_decorated_function', func).__name__)

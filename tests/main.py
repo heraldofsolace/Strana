@@ -3,7 +3,7 @@ from PEng.library import Library
 from PEng.template import Template
 
 source = """<html>
-    <head><title> {= title =}</title></head>
+    <head><title> {= title>>up =}</title></head>
     <body>
     {> do 3 times <}
         <p> I am a{= quality>>up=>0 =}boy at {= iteration =} </p>

@@ -21,7 +21,7 @@ class Engine:
     def load_template(self, name):
         if name.find('.') == -1:
             name += '.ptm'
-        name = self.templates_path + '/' + name
+        name = os.path.join(self.templates_path, name)
         if not os.path.isfile(name):
             raise Exception  # TODO:File doesn't exist
         template_contents = ''
@@ -31,6 +31,6 @@ class Engine:
 
 
 class DefaultEngine(Engine):
-    def __init__(self):
+    def __init__(self, path=''):
         from PEng.builtin import builtin
-        super().__init__([builtin], 'Invalid method call')
+        super().__init__([builtin], 'Invalid method call', path)
