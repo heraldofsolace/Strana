@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d1e30602-5e63-46a8-8580-9467e894cce4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PEng/engine.py" afterPath="$PROJECT_DIR$/PEng/engine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PEng/library.py" afterPath="$PROJECT_DIR$/PEng/library.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/engine.py" afterPath="$PROJECT_DIR$/tests/engine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/main.py" afterPath="$PROJECT_DIR$/tests/main.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +33,7 @@
       <file leaf-file-name="builtin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PEng/builtin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="270">
               <caret line="15" column="17" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
@@ -62,11 +56,9 @@
       <file leaf-file-name="engine.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/engine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
-              <folding>
-                <element signature="e#37#69#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="27" column="3" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,9 +78,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1697">
               <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -253,7 +243,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -426,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511872126199</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update Readme">
+      <created>1512995294222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512995294222</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -525,7 +522,8 @@
     <MESSAGE value="Changed package structure properly" />
     <MESSAGE value="Updated readme" />
     <MESSAGE value="Added setup.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added setup.py" />
+    <MESSAGE value="Update Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -697,11 +695,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/engine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#37#69#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -709,9 +705,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1697">
           <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +745,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PEng/builtin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="270">
           <caret line="15" column="17" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>

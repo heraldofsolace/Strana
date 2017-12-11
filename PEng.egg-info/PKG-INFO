@@ -8,5 +8,9 @@ Author-email: aniketmail669@gmail.com
 License: GNU General Public License v3
 Description-Content-Type: UNKNOWN
 Description: UNKNOWN
+Keywords: templating engine
 Platform: UNKNOWN
+Classifier: Development Status :: 4 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: GNU General Public License v3
 Requires-Python: >=3
