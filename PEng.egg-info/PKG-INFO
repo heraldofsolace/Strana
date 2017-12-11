@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: PEng
+Version: 1.0
+Summary: PEng is a templating engine inspired by Jinja2
+Home-page: peng.github.io
+Author: Aniket Bhattacharyea
+Author-email: aniketmail669@gmail.com
+License: GNU General Public License v3
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3

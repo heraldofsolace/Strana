@@ -1,6 +1,10 @@
 Hello
 this is a test file
-Title = {= titl =}
+Title = {= title =}
 {> do 5 times <}
 OwO at {= iteration =}
 {> /do <}
+
+{> for i in l <}
+{= i =}
+{> /for <}

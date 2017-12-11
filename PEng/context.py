@@ -9,8 +9,11 @@ class ContextStack:
         self.node_stack = []
 
     def push(self, context, node_id):
-        self.stack[node_id] = context
-        self.node_stack.append(node_id)
+        if node_id in self.stack:
+            self.stack[node_id].update(context)
+        else:
+            self.stack[node_id] = context
+            self.node_stack.append(node_id)
 
     def pop_node(self, node_id):
         self.node_stack.remove(node_id)
