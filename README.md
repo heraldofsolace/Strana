@@ -7,7 +7,7 @@ It uses techniques inspired from Django's templating system with minor tweaks.
 ## Installation
 Download the release tarball from the 'releases' tab and run
 ```
-pip install path_to_the_tarball
+pip install strana
 ``` 
 ## Examples
 ```python
