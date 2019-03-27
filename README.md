@@ -5,7 +5,6 @@ Strana is a templating engine with which it's easy to generate text files using 
 It uses techniques inspired from Django's templating system with minor tweaks.
 
 ## Installation
-Download the release tarball from the 'releases' tab and run
 ```
 pip install strana
 ``` 
