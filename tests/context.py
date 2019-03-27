@@ -1,4 +1,4 @@
-from PEng.context import Context
+from Strana.context import Context
 
 c = Context(None, {'Test': {'X': 2}}, 'root')
 c.context.push({'Test2': 'x'}, 'ry')

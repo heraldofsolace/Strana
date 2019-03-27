@@ -1,6 +1,6 @@
-from PEng.context import Context
-from PEng.library import Library
-from PEng.template import Template
+from Strana.context import Context
+from Strana.library import Library
+from Strana.template import Template
 
 source = """<html>
     <head><title> {= title>>up =}</title></head>

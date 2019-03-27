@@ -1,4 +1,4 @@
-from PEng.library import Library
+from Strana.library import Library
 
 builtin = Library()
 

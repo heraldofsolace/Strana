@@ -1,7 +1,7 @@
-from PEng.context import Context
-from PEng.template import Lexer, Parser
+from Strana.context import Context
+from Strana.template import Lexer, Parser
 
-l = Lexer('{= var =} \n Lol let\'s have sex')
+l = Lexer('{= var =} \n Lol let\'s go')
 li = l.tokenize()
 print(li)
 parser = Parser(li)

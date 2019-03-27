@@ -32,5 +32,5 @@ class Engine:
 
 class DefaultEngine(Engine):
     def __init__(self, path=''):
-        from PEng.builtin import builtin
+        from Strana.builtin import builtin
         super().__init__([builtin], 'Invalid method call', path)

@@ -1,7 +1,7 @@
-# PEng
+# Strana
 Python templating engine inspired by Django's templating system
 
-PEng is a templating engine with which it's easy to generate text files using templates.
+Strana is a templating engine with which it's easy to generate text files using templates.
 It uses techniques inspired from Django's templating system with minor tweaks.
 
 ## Installation
@@ -11,8 +11,8 @@ pip install path_to_the_tarball
 ``` 
 ## Examples
 ```python
-from PEng.context import Context
-from PEng.template import Template
+from Strana.context import Context
+from Strana.template import Template
 
 source = "I'm such a {= quality =} boy"
 
@@ -151,8 +151,8 @@ provided you with two basic builtin tags - the "for i in x" and "do i times" tag
 
 
 ```python
-from PEng.engine import DefaultEngine
-from PEng.template import Template
+from Strana.engine import DefaultEngine
+from Strana.template import Template
 en = DefaultEngine('templates')
 source = "{> do 2 times <}HI{>/do}"
 
@@ -178,7 +178,7 @@ Now let's see each of them in action.
 
 First import the library class and create an instance
 ```python
-from PEng.library import Library
+from Strana.library import Library
 r = Library()
 ```
 Now to register a basic action, use the basic_action() function.
@@ -306,7 +306,7 @@ which is exactly what you expect it to be.
 Context class provides a helpful wrapper over a dict for managing variables. (I
 have said that twice already). To initiate a context, you'll need to first import the class.
 ```python
-from PEng.context import Context
+from Strana.context import Context
 ```
 
 Then pass an engine, a dict which holds the variables, and a node id.

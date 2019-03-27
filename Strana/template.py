@@ -1,9 +1,9 @@
 import re
 from inspect import getcallargs, getfullargspec
 
-from PEng.engine import DefaultEngine
-from PEng.exception import *
-from PEng.node import TextNode, VariableNode
+from Strana.engine import DefaultEngine
+from Strana.exception import *
+from Strana.node import TextNode, VariableNode
 
 TOKEN_TYPE_TEXT = 0
 TOKEN_TYPE_VAR = 1

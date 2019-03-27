@@ -1,7 +1,7 @@
-from PEng.context import Context
-from PEng.engine import Engine
-from PEng.library import Library
-from PEng.template import Template
+from Strana.context import Context
+from Strana.engine import Engine
+from Strana.library import Library
+from Strana.template import Template
 
 r = Library()
 

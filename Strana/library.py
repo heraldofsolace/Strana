@@ -2,8 +2,8 @@ import functools
 import re
 from inspect import getfullargspec
 
-from PEng.node import BasicNode, LoopNode
-from PEng.template import parse_args
+from Strana.node import BasicNode, LoopNode
+from Strana.template import parse_args
 
 
 class Library:

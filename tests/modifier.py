@@ -1,6 +1,6 @@
-from PEng.library import Library
-from PEng.template import ModifierExpression
-from PEng.template import Parser
+from Strana.library import Library
+from Strana.template import ModifierExpression
+from Strana.template import Parser
 
 r = Library()
 

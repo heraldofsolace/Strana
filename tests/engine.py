@@ -1,9 +1,9 @@
 # from Template.engine import Engine
 from datetime import datetime
 
-from PEng.context import Context
-from PEng.library import Library
-from PEng.template import Template
+from Strana.context import Context
+from Strana.library import Library
+from Strana.template import Template
 
 r = Library()
 
